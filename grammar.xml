@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Chomsky Normal Form (CNF) Grammar-->
+<!--THIS GRAMMAR CONTAINS ONLY RULES FOR NON TERMINALS-->
+<grammar>
+
+    <rule>
+       <non_terminal1>VP</non_terminal1>
+       <non_terminal2>NP</non_terminal2>
+       <parent>S</parent>
+    </rule>
+
+    <rule>
+       <non_terminal1>NP</non_terminal1>
+       <non_terminal2>VP</non_terminal2>
+       <parent>S</parent>
+    </rule>
+
+    <rule>
+       <non_terminal1>N</non_terminal1>
+       <non_terminal2>VP</non_terminal2>
+       <parent>S</parent>
+    </rule>
+
+    <rule>
+       <non_terminal1>PN</non_terminal1>
+       <non_terminal2>VP</non_terminal2>
+       <parent>S</parent>
+    </rule>
+
+    <rule>
+       <non_terminal1>Pron</non_terminal1>
+       <non_terminal2>VP</non_terminal2>
+       <parent>S</parent>
+    </rule>
+
+    <rule>
+       <non_terminal1>VP</non_terminal1>
+       <non_terminal2>N</non_terminal2>
+       <parent>S</parent>
+    </rule>
+
+    <rule>
+       <non_terminal1>VP</non_terminal1>
+       <non_terminal2>PN</non_terminal2>
+       <parent>S</parent>
+    </rule>
+
+    <rule>
+       <non_terminal1>V</non_terminal1>
+       <non_terminal2>NP</non_terminal2>
+       <parent>VP</parent>
+    </rule>
+
+    <rule>
+       <non_terminal1>N</non_terminal1>
+       <non_terminal2>V</non_terminal2>
+       <parent>VP</parent>
+    </rule>
+
+    <rule>
+       <non_terminal1>PN</non_terminal1>
+       <non_terminal2>V</non_terminal2>
+       <parent>VP</parent>
+    </rule>
+
+    <rule>
+       <non_terminal1>VP</non_terminal1>
+       <non_terminal2>PP</non_terminal2>
+       <parent>VP</parent>
+    </rule>
+
+    <rule>
+       <non_terminal1>V</non_terminal1>
+       <non_terminal2>PP</non_terminal2>
+       <parent>VP</parent>
+    </rule>
+
+    <rule>
+       <non_terminal1>Pron</non_terminal1>
+       <non_terminal2>V</non_terminal2>
+       <parent>VP</parent>
+    </rule>
+
+    <rule>
+       <non_terminal1>Det</non_terminal1>
+       <non_terminal2>N</non_terminal2>
+       <parent>NP</parent>
+    </rule>
+
+    <rule>
+       <non_terminal1>Det</non_terminal1>
+       <non_terminal2>PN</non_terminal2>
+       <parent>NP</parent>
+    </rule>
+
+    <rule>
+       <non_terminal1>Det</non_terminal1>
+       <non_terminal2>Nominal</non_terminal2>
+       <parent>NP</parent>
+    </rule>
+
+    <rule>
+       <non_terminal1>Adj</non_terminal1>
+       <non_terminal2>N</non_terminal2>
+       <parent>Nominal</parent>
+    </rule>
+
+    <rule>
+       <non_terminal1>Adj</non_terminal1>
+       <non_terminal2>PN</non_terminal2>
+       <parent>Nominal</parent>
+    </rule>
+
+    <rule>
+       <non_terminal1>Prep</non_terminal1>
+       <non_terminal2>NP</non_terminal2>
+       <parent>PP</parent>
+    </rule>
+
+</grammar>
