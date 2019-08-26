@@ -258,8 +258,10 @@ def print_syntax_tree(i, j, rule_array, depth, max_depth=10):
 
     # print('i: ' + str(i) + ', j: ' + str(j))
     tabs = ''
+    # tabs = '|'
     for k in range(depth):
-        tabs = '|' + '\t' + tabs
+        # tabs = '|' + '\t' + tabs
+        tabs = '|' + '----' + tabs
     if len(tabs) == 0:
         tabs = '|'
     try:
