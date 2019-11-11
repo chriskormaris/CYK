@@ -35,7 +35,8 @@ def convert_pos_tags_to_simpler_tags(tagged_sentence):
                 or tagged_sentence[i][1] == 'PRP$'\
                 or tagged_sentence[i][1] == 'WP'\
                 or tagged_sentence[i][1] == 'WP$':
-            tagged_sentence[i][1] = 'Pron'  # Pronoun
+            # tagged_sentence[i][1] = 'Pron'  # Pronoun
+            tagged_sentence[i][1] = 'NP'
         elif tagged_sentence[i][1] == 'VB'\
                 or tagged_sentence[i][1] == 'VBD'\
                 or tagged_sentence[i][1] == 'VBG'\
