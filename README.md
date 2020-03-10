@@ -53,8 +53,8 @@ Cocke–Younger–Kasami algorithm (alternatively called CYK, or CKY) is an algo
     <th>-</th>
     <th>-</th>
     <th>-</th>
-    <th>N</th>
     <th>-</th>
+    <th>N</th>
     <th>-</th>
     <th>-</th>
     <th>-</th>
