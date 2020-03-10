@@ -1,2 +1,2 @@
 python CYK.py
-pause;
+pause
