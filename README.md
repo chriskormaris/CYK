@@ -3,6 +3,97 @@ Cocke–Younger–Kasami algorithm (alternatively called CYK, or CKY) is an algo
 
 ### Example
 
+<table>
+  <tr>
+    <th>-</th>
+    <th>-</th>
+    <th>She</th>
+    <th>eats</th>
+    <th>a</th>
+    <th>fish</th>
+    <th>with</th>
+    <th>a</th>
+    <th>fork</th>
+  </tr>
+  <tr>
+    <th>0</th>
+    <th>-</th>
+    <th>Pron</th>
+    <th>VP</th>
+    <th>-</th>
+    <th>S</th>
+    <th>-</th>
+    <th>-</th>
+    <th>S</th>
+  </tr>
+  <tr>
+    <th>1</th>
+    <th>-</th>
+    <th>-</th>
+    <th>V</th>
+    <th>-</th>
+    <th>VP</th>
+    <th>-</th>
+    <th>-</th>
+    <th>VP</th>
+  </tr>
+  <tr>
+    <th>2</th>
+    <th>-</th>
+    <th>-</th>
+    <th>-</th>
+    <th>Det</th>
+    <th>NP</th>
+    <th>-</th>
+    <th>-</th>
+    <th>-</th>
+  </tr>
+  <tr>
+    <th>3</th>
+    <th>-</th>
+    <th>-</th>
+    <th>-</th>
+    <th>N</th>
+    <th>-</th>
+    <th>-</th>
+    <th>-</th>
+    <th>-</th>
+  </tr>
+  <tr>
+    <th>4</th>
+    <th>-</th>
+    <th>-</th>
+    <th>-</th>
+    <th>-</th>
+    <th>-</th>
+    <th>Prep</th>
+    <th>-</th>
+    <th>PP</th>
+  </tr>
+  <tr>
+    <th>5</th>
+    <th>-</th>
+    <th>-</th>
+    <th>-</th>
+    <th>-</th>
+    <th>-</th>
+    <th>-</th>
+    <th>Det</th>
+    <th>NP</th>
+  </tr>
+  <tr>
+    <th>6</th>
+    <th>-</th>
+    <th>-</th>
+    <th>-</th>
+    <th>-</th>
+    <th>-</th>
+    <th>-</th>
+    <th>-</th>
+    <th>N</th>
+  </tr>
+</table>
+
 ![example](/console_outputs/She%20eats%20a%20fish%20with%20a%20fork.PNG)
 
 Wikipedia link: [CYK_algorithm](https://en.wikipedia.org/wiki/CYK_algorithm)
