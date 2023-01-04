@@ -14,7 +14,7 @@ def convert_tuples_to_lists(list_of_tuples):
     return list_of_lists
 
 
-# the function is based on POS tags taken from this url:
+# The function is based on POS tags taken from this url:
 # https://www.ling.upenn.edu/courses/Fall_2003/ling001/penn_treebank_pos.html
 def convert_pos_tags_to_simpler_tags(tagged_sentence):
     for i in range(len(tagged_sentence)):
