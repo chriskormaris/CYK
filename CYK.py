@@ -1,18 +1,13 @@
+import xml.etree.ElementTree
+
 import nltk
 import pandas as pd
 from pandas import DataFrame
-
-# xml libraries
-import xml.etree.ElementTree
-
-__author__ = 'c.kormaris'
 
 # set pandas options
 pd.set_option('display.width', 200)
 pd.set_option('max_colwidth', 60)
 
-
-###############
 
 # FUNCTIONS #
 
@@ -239,7 +234,7 @@ def cyk(tagged_sentence, rules):
     print('')
     '''
 
-    # Run a backtrack to find the syntax tree rules.
+    # Run a back-track algorithm to find the syntax tree rules.
     print('syntax tree: ')
     print('(the head children are underlined)\n')
     print_syntax_tree(i=0, j=len(C), rule_array=rule_array, depth=0)
